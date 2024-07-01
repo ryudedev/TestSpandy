@@ -9,26 +9,28 @@ import SwiftUI
 
 struct Navigation: View {
     @EnvironmentObject var dateHolder: DateHolder
-    var Tab: String
     var body: some View {
         HStack(alignment: .center)
         {
-            Button(action: {Tab = "Person"})
-            {
+            NavigationLink {
+                PairInfoView().environmentObject(dateHolder)
+            } label: {
                 Image("Person")
                     .frame(width: 50, height: 50, alignment: .center)
                     .toolbar(.hidden)
             }
             Spacer()
-            Button(action: {Tab = "Chat"})
-            {
+            NavigationLink {
+                ChatView().environmentObject(dateHolder)
+            } label: {
                 Image("Chat")
                     .frame(width: 50, height: 50, alignment: .center)
                     .toolbar(.hidden)
             }
             Spacer()
-            Button(action: {Tab = "Setting"})
-            {
+            NavigationLink {
+                
+            } label: {
                 Image("Setting")
                     .frame(width: 50, height: 50, alignment: .center)
                     .toolbar(.hidden)
