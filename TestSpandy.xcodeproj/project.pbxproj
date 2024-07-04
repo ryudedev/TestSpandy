@@ -12,9 +12,14 @@
 		6A2A30F72C1EF80B005FA0CA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A30F62C1EF80B005FA0CA /* ProfileView.swift */; };
 		6A2A30FD2C1F0670005FA0CA /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2A30FC2C1F0670005FA0CA /* WrappingStack */; };
 		6A2A31012C1F0DCF005FA0CA /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A31002C1F0DCF005FA0CA /* NaviView.swift */; };
+		6A3A9D192C365C940053B8E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A9D182C365C940053B8E9 /* SettingsView.swift */; };
 		6A487D9E2C1C29FF00BAE442 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A487D9D2C1C29FF00BAE442 /* CardView.swift */; };
 		6A487DA02C1C2A2200BAE442 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A487D9F2C1C2A2200BAE442 /* ListView.swift */; };
-		6A89FE232C2A79E8002EE8E0 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A89FE222C2A79E8002EE8E0 /* Navigation.swift */; };
+		6A5E7D082C3254ED00BED257 /* chatData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E7D072C3254ED00BED257 /* chatData.json */; };
+		6A5E7D0A2C32550900BED257 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E7D092C32550900BED257 /* Chat.swift */; };
+		6A5E7D0C2C32552500BED257 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E7D0B2C32552500BED257 /* Message.swift */; };
+		6A5E7D0E2C3255F900BED257 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E7D0D2C3255F900BED257 /* ChatViewModel.swift */; };
+		6A89FE232C2A79E8002EE8E0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A89FE222C2A79E8002EE8E0 /* Home.swift */; };
 		6A89FE252C2A812B002EE8E0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A89FE242C2A812B002EE8E0 /* ChatView.swift */; };
 		6A9B1D2B2C21532100C4A3C5 /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D2A2C21532100C4A3C5 /* PendingView.swift */; };
 		6A9B1D2D2C21552A00C4A3C5 /* PendingProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D2C2C21552A00C4A3C5 /* PendingProps.swift */; };
@@ -52,9 +57,14 @@
 		6A0668BA2C1FDD6E00DD2B69 /* Carrer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrer.swift; sourceTree = "<group>"; };
 		6A2A30F62C1EF80B005FA0CA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6A2A31002C1F0DCF005FA0CA /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
+		6A3A9D182C365C940053B8E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		6A487D9D2C1C29FF00BAE442 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6A487D9F2C1C2A2200BAE442 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		6A89FE222C2A79E8002EE8E0 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		6A5E7D072C3254ED00BED257 /* chatData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatData.json; sourceTree = "<group>"; };
+		6A5E7D092C32550900BED257 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		6A5E7D0B2C32552500BED257 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6A5E7D0D2C3255F900BED257 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		6A89FE222C2A79E8002EE8E0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6A89FE242C2A812B002EE8E0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		6A9B1D2A2C21532100C4A3C5 /* PendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingView.swift; sourceTree = "<group>"; };
 		6A9B1D2C2C21552A00C4A3C5 /* PendingProps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingProps.swift; sourceTree = "<group>"; };
@@ -112,6 +122,8 @@
 		6A487DA12C1C2C0C00BAE442 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6A5E7D092C32550900BED257 /* Chat.swift */,
+				6A5E7D0B2C32552500BED257 /* Message.swift */,
 				6AC388BB2C1DEE4900CCB4A7 /* User.swift */,
 				6AC388BD2C1DF0CD00CCB4A7 /* Person.swift */,
 				6A0668BA2C1FDD6E00DD2B69 /* Carrer.swift */,
@@ -168,8 +180,9 @@
 				6A9B1D982C219B6D00C4A3C5 /* PairInfoView.swift */,
 				6ABC608E2C2918210014C5C3 /* DateScrollerView.swift */,
 				6ABC60922C296F420014C5C3 /* CalendarCell.swift */,
-				6A89FE222C2A79E8002EE8E0 /* Navigation.swift */,
+				6A89FE222C2A79E8002EE8E0 /* Home.swift */,
 				6A89FE242C2A812B002EE8E0 /* ChatView.swift */,
+				6A3A9D182C365C940053B8E9 /* SettingsView.swift */,
 			);
 			path = phase3;
 			sourceTree = "<group>";
@@ -218,6 +231,7 @@
 		6AB634F52C1AD1AE002A83BB /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
+				6A5E7D072C3254ED00BED257 /* chatData.json */,
 				6AC388B92C1DED6E00CCB4A7 /* userData.json */,
 			);
 			path = DataServices;
@@ -236,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				6AC388BF2C1DF43B00CCB4A7 /* UserViewModel.swift */,
+				6A5E7D0D2C3255F900BED257 /* ChatViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -312,6 +327,7 @@
 				6A9B1D8A2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf in Resources */,
 				6A9B1D902C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf in Resources */,
 				6A9B1D892C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf in Resources */,
+				6A5E7D082C3254ED00BED257 /* chatData.json in Resources */,
 				6AC388BA2C1DED6E00CCB4A7 /* userData.json in Resources */,
 				6AB242632C1AB2B700FDE760 /* Preview Assets.xcassets in Resources */,
 				6A9B1D8E2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf in Resources */,
@@ -331,11 +347,14 @@
 				6A9B1D992C219B6D00C4A3C5 /* PairInfoView.swift in Sources */,
 				6ABC60932C296F420014C5C3 /* CalendarCell.swift in Sources */,
 				6A0668B92C1FCC4E00DD2B69 /* SettingView.swift in Sources */,
+				6A5E7D0A2C32550900BED257 /* Chat.swift in Sources */,
 				6A0668BB2C1FDD6E00DD2B69 /* Carrer.swift in Sources */,
 				6AC388BE2C1DF0CD00CCB4A7 /* Person.swift in Sources */,
 				6A2A30F72C1EF80B005FA0CA /* ProfileView.swift in Sources */,
+				6A5E7D0E2C3255F900BED257 /* ChatViewModel.swift in Sources */,
 				6ABC60912C291C9E0014C5C3 /* CalendarHelper.swift in Sources */,
 				6A9B1D932C21784D00C4A3C5 /* CarrerView.swift in Sources */,
+				6A5E7D0C2C32552500BED257 /* Message.swift in Sources */,
 				6ACC89442C25B5F50076DDB7 /* Date.swift in Sources */,
 				6ABC608D2C2917930014C5C3 /* DateHolder.swift in Sources */,
 				6A487DA02C1C2A2200BAE442 /* ListView.swift in Sources */,
@@ -343,10 +362,11 @@
 				6AB2425E2C1AB2B600FDE760 /* ContentView.swift in Sources */,
 				6A89FE252C2A812B002EE8E0 /* ChatView.swift in Sources */,
 				6A487D9E2C1C29FF00BAE442 /* CardView.swift in Sources */,
+				6A3A9D192C365C940053B8E9 /* SettingsView.swift in Sources */,
 				6ABC60972C297EA90014C5C3 /* Month.swift in Sources */,
 				6AC388BC2C1DEE4900CCB4A7 /* User.swift in Sources */,
 				6A9B1D962C21844D00C4A3C5 /* PendingCheckView.swift in Sources */,
-				6A89FE232C2A79E8002EE8E0 /* Navigation.swift in Sources */,
+				6A89FE232C2A79E8002EE8E0 /* Home.swift in Sources */,
 				6A2A31012C1F0DCF005FA0CA /* NaviView.swift in Sources */,
 				6ABC608F2C2918210014C5C3 /* DateScrollerView.swift in Sources */,
 				6A9B1D2B2C21532100C4A3C5 /* PendingView.swift in Sources */,
@@ -493,7 +513,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,7 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

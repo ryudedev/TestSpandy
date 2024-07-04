@@ -9,15 +9,10 @@ struct TestSpandyApp: App {
         WindowGroup {
             if(isPaired) {
                 let dateHolder = DateHolder()
-                NavigationView {
-                    PairInfoView()
-                        .environmentObject(dateHolder)
-                        .background(Color.colorScheme)
-                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-                }
-                .overlay(Navigation()
-                    .environmentObject(dateHolder), alignment: .bottom)
-                
+                Home()
+                    .environmentObject(dateHolder)
+                    .background(Color.colorScheme)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
             } else {
                 ListView()
             }

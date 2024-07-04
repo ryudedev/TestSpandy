@@ -1,19 +1,19 @@
 //
-//  Chat.swift
+//  Settings.swift
 //  TestSpandy
 //
-//  Created by IT on 2024/06/25.
+//  Created by IT on 2024/07/04.
 //
 
 import SwiftUI
 
-struct ChatView: View {
+struct SettingsView: View {
     @EnvironmentObject var dateHolder: DateHolder
     var body: some View {
-        Text("Chat")
+        Text("Settings")
     }
 }
 
 #Preview {
-    ChatView()
+    SettingsView()
 }
