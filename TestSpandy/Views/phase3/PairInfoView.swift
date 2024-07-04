@@ -163,6 +163,7 @@ extension PairInfoView {
                     .padding(24)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
                     .background(index == 0 ? Color.white : Color.green600)
+                    .foregroundColor(index == 0 ? Color.black : Color.white)
                 }
             }
             .cornerRadius(24)
