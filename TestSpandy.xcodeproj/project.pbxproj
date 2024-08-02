@@ -12,6 +12,7 @@
 		6A2A30F72C1EF80B005FA0CA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A30F62C1EF80B005FA0CA /* ProfileView.swift */; };
 		6A2A30FD2C1F0670005FA0CA /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2A30FC2C1F0670005FA0CA /* WrappingStack */; };
 		6A2A31012C1F0DCF005FA0CA /* NaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A31002C1F0DCF005FA0CA /* NaviView.swift */; };
+		6A312BFF2C466CE600FFF513 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6A312BFE2C466CE600FFF513 /* Alamofire */; };
 		6A3A9D192C365C940053B8E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A9D182C365C940053B8E9 /* SettingsView.swift */; };
 		6A3A9D1B2C3696250053B8E9 /* InputPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3A9D1A2C3696250053B8E9 /* InputPerson.swift */; };
 		6A487D9E2C1C29FF00BAE442 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A487D9D2C1C29FF00BAE442 /* CardView.swift */; };
@@ -24,15 +25,6 @@
 		6A89FE252C2A812B002EE8E0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A89FE242C2A812B002EE8E0 /* ChatView.swift */; };
 		6A9B1D2B2C21532100C4A3C5 /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D2A2C21532100C4A3C5 /* PendingView.swift */; };
 		6A9B1D2D2C21552A00C4A3C5 /* PendingProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D2C2C21552A00C4A3C5 /* PendingProps.swift */; };
-		6A9B1D892C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D7F2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf */; };
-		6A9B1D8A2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D802C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf */; };
-		6A9B1D8B2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D812C216BD500C4A3C5 /* ヒラギノ角ゴ Std W2.otf */; };
-		6A9B1D8C2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D822C216BD500C4A3C5 /* ヒラギノ角ゴ Std W3.otf */; };
-		6A9B1D8D2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D832C216BD500C4A3C5 /* ヒラギノ角ゴ Std W4.otf */; };
-		6A9B1D8E2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D842C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf */; };
-		6A9B1D8F2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D852C216BD500C4A3C5 /* ヒラギノ角ゴ Std W6.otf */; };
-		6A9B1D902C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D862C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf */; };
-		6A9B1D912C216BD500C4A3C5 /* ヒラギノ角ゴ Std W9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B1D872C216BD500C4A3C5 /* ヒラギノ角ゴ Std W9.otf */; };
 		6A9B1D932C21784D00C4A3C5 /* CarrerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D922C21784D00C4A3C5 /* CarrerView.swift */; };
 		6A9B1D962C21844D00C4A3C5 /* PendingCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D952C21844D00C4A3C5 /* PendingCheckView.swift */; };
 		6A9B1D992C219B6D00C4A3C5 /* PairInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B1D982C219B6D00C4A3C5 /* PairInfoView.swift */; };
@@ -58,6 +50,15 @@
 		6A0668BA2C1FDD6E00DD2B69 /* Carrer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrer.swift; sourceTree = "<group>"; };
 		6A2A30F62C1EF80B005FA0CA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6A2A31002C1F0DCF005FA0CA /* NaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviView.swift; sourceTree = "<group>"; };
+		6A312C022C468AF800FFF513 /* W5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W5.otf; sourceTree = "<group>"; };
+		6A312C032C468AF800FFF513 /* W1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W1.otf; sourceTree = "<group>"; };
+		6A312C042C468AF800FFF513 /* W4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W4.otf; sourceTree = "<group>"; };
+		6A312C052C468AF800FFF513 /* W9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W9.otf; sourceTree = "<group>"; };
+		6A312C062C468AF800FFF513 /* W7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W7.otf; sourceTree = "<group>"; };
+		6A312C072C468AF800FFF513 /* W2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W2.otf; sourceTree = "<group>"; };
+		6A312C082C468AF800FFF513 /* W6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W6.otf; sourceTree = "<group>"; };
+		6A312C092C468AF800FFF513 /* W3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W3.otf; sourceTree = "<group>"; };
+		6A312C0A2C468AF800FFF513 /* W0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = W0.otf; sourceTree = "<group>"; };
 		6A3A9D182C365C940053B8E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		6A3A9D1A2C3696250053B8E9 /* InputPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPerson.swift; sourceTree = "<group>"; };
 		6A487D9D2C1C29FF00BAE442 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -70,15 +71,6 @@
 		6A89FE242C2A812B002EE8E0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		6A9B1D2A2C21532100C4A3C5 /* PendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingView.swift; sourceTree = "<group>"; };
 		6A9B1D2C2C21552A00C4A3C5 /* PendingProps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingProps.swift; sourceTree = "<group>"; };
-		6A9B1D7F2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W0.otf"; sourceTree = "<group>"; };
-		6A9B1D802C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W1.otf"; sourceTree = "<group>"; };
-		6A9B1D812C216BD500C4A3C5 /* ヒラギノ角ゴ Std W2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W2.otf"; sourceTree = "<group>"; };
-		6A9B1D822C216BD500C4A3C5 /* ヒラギノ角ゴ Std W3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W3.otf"; sourceTree = "<group>"; };
-		6A9B1D832C216BD500C4A3C5 /* ヒラギノ角ゴ Std W4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W4.otf"; sourceTree = "<group>"; };
-		6A9B1D842C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W5.otf"; sourceTree = "<group>"; };
-		6A9B1D852C216BD500C4A3C5 /* ヒラギノ角ゴ Std W6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W6.otf"; sourceTree = "<group>"; };
-		6A9B1D862C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W7.otf"; sourceTree = "<group>"; };
-		6A9B1D872C216BD500C4A3C5 /* ヒラギノ角ゴ Std W9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴ Std W9.otf"; sourceTree = "<group>"; };
 		6A9B1D922C21784D00C4A3C5 /* CarrerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrerView.swift; sourceTree = "<group>"; };
 		6A9B1D952C21844D00C4A3C5 /* PendingCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingCheckView.swift; sourceTree = "<group>"; };
 		6A9B1D982C219B6D00C4A3C5 /* PairInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairInfoView.swift; sourceTree = "<group>"; };
@@ -104,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A312BFF2C466CE600FFF513 /* Alamofire in Frameworks */,
 				6A9B1D9C2C219F5300C4A3C5 /* Algorithms in Frameworks */,
 				6A2A30FD2C1F0670005FA0CA /* WrappingStack in Frameworks */,
 			);
@@ -148,18 +141,18 @@
 		6A9B1D882C216BD500C4A3C5 /* HiraginoSans */ = {
 			isa = PBXGroup;
 			children = (
-				6A9B1D7F2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf */,
-				6A9B1D802C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf */,
-				6A9B1D812C216BD500C4A3C5 /* ヒラギノ角ゴ Std W2.otf */,
-				6A9B1D822C216BD500C4A3C5 /* ヒラギノ角ゴ Std W3.otf */,
-				6A9B1D832C216BD500C4A3C5 /* ヒラギノ角ゴ Std W4.otf */,
-				6A9B1D842C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf */,
-				6A9B1D852C216BD500C4A3C5 /* ヒラギノ角ゴ Std W6.otf */,
-				6A9B1D862C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf */,
-				6A9B1D872C216BD500C4A3C5 /* ヒラギノ角ゴ Std W9.otf */,
+				6A312C0A2C468AF800FFF513 /* W0.otf */,
+				6A312C032C468AF800FFF513 /* W1.otf */,
+				6A312C072C468AF800FFF513 /* W2.otf */,
+				6A312C092C468AF800FFF513 /* W3.otf */,
+				6A312C042C468AF800FFF513 /* W4.otf */,
+				6A312C022C468AF800FFF513 /* W5.otf */,
+				6A312C082C468AF800FFF513 /* W6.otf */,
+				6A312C062C468AF800FFF513 /* W7.otf */,
+				6A312C052C468AF800FFF513 /* W9.otf */,
 			);
 			name = HiraginoSans;
-			path = ../../../../../../../../Downloads/HiraginoSans;
+			path = HiraginoSans1;
 			sourceTree = "<group>";
 		};
 		6A9B1D942C21828A00C4A3C5 /* phase2 */ = {
@@ -277,6 +270,7 @@
 			packageProductDependencies = (
 				6A2A30FC2C1F0670005FA0CA /* WrappingStack */,
 				6A9B1D9B2C219F5300C4A3C5 /* Algorithms */,
+				6A312BFE2C466CE600FFF513 /* Alamofire */,
 			);
 			productName = TestSpandy;
 			productReference = 6AB242582C1AB2B600FDE760 /* TestSpandy.app */;
@@ -309,6 +303,8 @@
 			packageReferences = (
 				6A2A30FB2C1F0670005FA0CA /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */,
 				6A9B1D9A2C219F5300C4A3C5 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				6A312BFD2C466CE600FFF513 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6A23AA882C4837BB00BD61B5 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = 6AB242592C1AB2B600FDE760 /* Products */;
 			projectDirPath = "";
@@ -324,18 +320,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A9B1D8D2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W4.otf in Resources */,
-				6A9B1D912C216BD500C4A3C5 /* ヒラギノ角ゴ Std W9.otf in Resources */,
-				6A9B1D8B2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W2.otf in Resources */,
-				6A9B1D8A2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W1.otf in Resources */,
-				6A9B1D902C216BD500C4A3C5 /* ヒラギノ角ゴ Std W7.otf in Resources */,
-				6A9B1D892C216BD500C4A3C5 /* ヒラギノ角ゴ Std W0.otf in Resources */,
 				6A5E7D082C3254ED00BED257 /* chatData.json in Resources */,
 				6AC388BA2C1DED6E00CCB4A7 /* userData.json in Resources */,
 				6AB242632C1AB2B700FDE760 /* Preview Assets.xcassets in Resources */,
-				6A9B1D8E2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W5.otf in Resources */,
-				6A9B1D8F2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W6.otf in Resources */,
-				6A9B1D8C2C216BD500C4A3C5 /* ヒラギノ角ゴ Std W3.otf in Resources */,
 				6AB242602C1AB2B700FDE760 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,12 +572,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6A23AA882C4837BB00BD61B5 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.13.0;
+			};
+		};
 		6A2A30FB2C1F0670005FA0CA /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/diniska/swiftui-wrapping-stack";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.1.0;
+			};
+		};
+		6A312BFD2C466CE600FFF513 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
 			};
 		};
 		6A9B1D9A2C219F5300C4A3C5 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
@@ -608,6 +611,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6A2A30FB2C1F0670005FA0CA /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */;
 			productName = WrappingStack;
+		};
+		6A312BFE2C466CE600FFF513 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A312BFD2C466CE600FFF513 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 		6A9B1D9B2C219F5300C4A3C5 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;

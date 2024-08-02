@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PendingCheckView: View {
     let user: Person
+    @Binding var isPaired: Bool
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 24) {
@@ -18,7 +19,7 @@ struct PendingCheckView: View {
                     Text("awaiting...")
                         .font(.custom("HiraKakuStd-W7", size: 16))
                 }
-                CardView(user: user)
+                CardView(user: user, isPaired: $isPaired)
             }
         }
     }

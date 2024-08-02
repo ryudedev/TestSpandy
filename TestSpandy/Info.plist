@@ -14,16 +14,16 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ヒラギノ角ゴ Std W0.otf</string>
-		<string>ヒラギノ角ゴ Std W1.otf</string>
-		<string>ヒラギノ角ゴ Std W2.otf</string>
-		<string>ヒラギノ角ゴ Std W3.otf</string>
-		<string>ヒラギノ角ゴ Std W4.otf</string>
-		<string>ヒラギノ角ゴ Std W5.otf</string>
-		<string>ヒラギノ角ゴ Std W6.otf</string>
-		<string>ヒラギノ角ゴ Std W7.otf</string>
-		<string>ヒラギノ角ゴ Std W8.otf</string>
-		<string>ヒラギノ角ゴ Std W9.otf</string>
+		<string>W0.otf</string>
+		<string>W1.otf</string>
+		<string>W2.otf</string>
+		<string>W3.otf</string>
+		<string>W4.otf</string>
+		<string>W5.otf</string>
+		<string>W6.otf</string>
+		<string>W7.otf</string>
+		<string>W8.otf</string>
+		<string>W9.otf</string>
 	</array>
 </dict>
 </plist>
