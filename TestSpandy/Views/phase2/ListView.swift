@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     @ObservedObject var uvm: UserViewModel = UserViewModel()
+    @Binding var isPaired: Bool
     var body: some View {
         NavigationView {
             ZStack(){
@@ -21,16 +22,12 @@ struct ListView: View {
     }
 }
 
-#Preview {
-    ListView()
-}
-
 extension ListView {
     private var list: some View {
         ScrollView {
             VStack {
                 ForEach(uvm.userData[0].users) { user in
-                    CardView(user: user)
+                    CardView(user: user, isPaired: $isPaired)
                 }
             }
         }

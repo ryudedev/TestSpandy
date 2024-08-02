@@ -10,6 +10,7 @@ import WrappingStack
 
 struct CardView: View {
     let user: Person
+    @Binding var isPaired: Bool
     let qualificationData: [String] = ["TOEIC", "German Language Proficiency Test", "Chinese Language Proficiency Test"]
     let languageData: [String] = ["English","French", "Italian", "Arabic", "chinese"]
     @State private var is_open = false
@@ -68,7 +69,7 @@ extension CardView {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(Color(red: 0, green: 0.66, blue: 0.38))
             Button {
-                
+                isPaired = true
             } label: {
                 HStack(alignment: .center, spacing: 8) {
                     Image("ApplyFor")
